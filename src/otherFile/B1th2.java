@@ -1,3 +1,5 @@
+package otherFile;
+
 import java.util.Scanner;
 
 public class B1th2 {
@@ -14,12 +16,12 @@ public class B1th2 {
 
         if (n <= 0) {
             System.out.println("n must be greater than 0");
-        } else if(n==1 || n==2) {
+        } else if (n == 1 || n == 2) {
             System.out.println("1");
         } else {
             for (int i = 2; i < n; i++) {
                 f = a + b;
-                 a = b;
+                a = b;
                 b = f;
             }
             System.out.println(f);

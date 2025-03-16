@@ -1,3 +1,5 @@
+package otherFile;
+
 import java.util.Scanner;
 
 public class BatPhan {

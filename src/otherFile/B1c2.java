@@ -1,3 +1,5 @@
+package otherFile;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -15,4 +17,3 @@ public class B1c2 {
         }
     }
 }
-
