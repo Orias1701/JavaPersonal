@@ -24,7 +24,6 @@ public class Login extends JFrame implements ActionListener {
         JLabel titleLabel = new JLabel("LOGIN");
         titleLabel.setFont(new Font("Arial", Font.BOLD, 24));
         JLabel usernameLabel = new JLabel("Account: ");
-        // JLabel usernameLabel = new JLabel("Password: ");
         JLabel passwordLabel = new JLabel("Password: ");
         usernameField = new JTextField(15);
         passwordField = new JPasswordField(15);
