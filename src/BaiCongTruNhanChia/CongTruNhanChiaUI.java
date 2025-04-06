@@ -127,7 +127,7 @@ public class CongTruNhanChiaUI extends JFrame{
         JPanel pnPhepTinh = new JPanel();
         pnPhepTinh.setLayout(new BoxLayout(pnPhepTinh, BoxLayout.Y_AXIS));
         Border borderPhepTinh = BorderFactory.createLineBorder(Color.RED);
-        TitledBorder titlePhepTinh = BorderFactory.createTitledBorder(borderXuLy, "Nhập 2 số a, b");
+        TitledBorder titlePhepTinh = BorderFactory.createTitledBorder(borderPhepTinh, "Nhập 2 số a, b");
         titlePhepTinh.setTitleJustification(TitledBorder.LEFT);
         pnPhepTinh.setBorder(titlePhepTinh);
         JPanel pnHang_a = new JPanel();
@@ -148,7 +148,7 @@ public class CongTruNhanChiaUI extends JFrame{
         JPanel pnChinh = new JPanel();
         pnChinh.setPreferredSize(new Dimension(150,70));
         Border borderLuaChon = BorderFactory.createLineBorder(Color.RED);
-        TitledBorder titleLuaChon = BorderFactory.createTitledBorder(borderXuLy, "Chọn phép toán");
+        TitledBorder titleLuaChon = BorderFactory.createTitledBorder(borderLuaChon, "Chọn phép toán");
         titleLuaChon.setTitleJustification(TitledBorder.LEFT);
         pnChinh.setBorder(titleLuaChon);
         pnChinh.setLayout(new GridLayout(2, 2));
